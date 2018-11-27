@@ -1,0 +1,76 @@
+body{
+  background: #c7c21c
+}
+        .header h1 {
+          color: #4d0a01;
+          font-size: 250px;
+          text-align: center;
+          font-family: 'Righteous', cursive;
+}
+
+        article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 2;
+    }
+    p.1 {
+      position: relative;
+      top: -400px;
+      font-size: 20px;
+      text-align: left;
+      font-family: 'Poiret One', cursive;
+    }
+        h2{
+            color: #4d0a01;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Righteous', cursive;
+
+        }
+        h3{
+            color: #4d0a01;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Righteous', cursive;
+        }
+        h4{
+            color: #4d0a01;
+            font-size: 50px;
+            text-align: left;
+            font-family: 'Righteous', cursive;
+        }
+        h5{
+          color: #4d0a01;
+          font-size: 50px;
+          text-align: left;
+          font-family: 'Righteous', cursive;
+        }
+        ul {
+          color: #4d0a01;
+          font-size: 20px;
+          text-align: left;
+          font-family: 'Poiret One', cursive;
+        }
+        div{
+            font-family: 'Poiret One', cursive;
+            font-size: 20px;
+        }
+        .first{
+            background: #c7c21c;
+            text-align: left;
+        }
+        .second{
+            background: #c7c21c;
+            text-align: left;
+        }
+        .third{
+            background:#c7c21c;
+            text-align: left;
+        }
+          .number {
+            font-size: 30px;
+            font-family: 'Righteous', cursive;
+          }
+.header2 {
+  margin-top: 0;
+}
