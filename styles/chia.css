@@ -1,0 +1,17 @@
+body {
+  background: rgba(102,158,205)
+}
+.header h1 {
+  font-size: 100px;
+  color: rgba(0,102,102)
+}
+
+h2 {
+  color: rgba(0,102,102)
+}
+ul {
+    color: rgba(0,102,102)
+}
+#what-with-2 {
+  margin: 0px 0px 0px 0px;
+}

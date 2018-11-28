@@ -1,0 +1,44 @@
+body {
+
+}
+.header h1 {
+  font-size: 250px;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  margin: 75px 50px 75px 100px;
+}
+
+.header2 {
+  margin-top: 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+}
+
+p {
+  max-width: 700px;
+  padding: 20px;
+  margin: 2;
+}
+
+div{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    text-align: left;
+}
+
+ul {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    }
+
+.important {
+  font-weight: bold;
+}
+.latin {
+  font-style: italic;
+}
