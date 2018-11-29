@@ -11,11 +11,23 @@ body {
   background-size: cover;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid slategrey;
+}
+
 .header h1 {
-  font-size: 90px;
+  font-size: 150px;
   text-align: center;
   color: black;
   font-weight: bold;
+  -webkit-text-stroke: 2px white;
 }
 
 p.blocktext {

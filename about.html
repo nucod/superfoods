@@ -8,21 +8,17 @@
     <link rel="stylesheet" href="styles/about.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-          $("#flip").click(function(){
-              $("#panel").slideDown("slow");
-          });
-      });
-    </script>
+
     <title>ABOUT</title>
 
     <div id="mySidenav" class="sidenav">
-      <a class="nav-link" href="#" id="about">About</a>
-      <a class="nav-link" href="#" id="foods">Superfoods</a>
-      <a class="nav-link" href="#" id="map">Map</a>
+      <a class="nav-link" href="about.html" id="about">About</a>
+      <a class="nav-link" href="superfoods.html" id="foods">Superfoods</a>
+      <a class="nav-link" href="map.html" id="map">Map</a>
+      <a class="nav-link" href="main.html" id="main">Main</a>
+      
     </div>
-    
+
   </head>
 <body>
 <div class="container">
@@ -50,6 +46,18 @@
       }, {
         duration: "slow"
       });
+      </script>
+
+      <script>
+  //      $(document).ready(function(){
+  //          $("#flip").click(function(){
+//               window.scrollTo(0, $("#panel")[0].scrollHeight);
+//            });
+//        });
+
+        $('div').on('click', function()) {
+          $(this).toogleClass('show-description');
+        });
       </script>
 
     </div>

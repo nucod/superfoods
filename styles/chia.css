@@ -17,6 +17,11 @@
     background-color: rgba(66,56,56);
 }
 
+#main {
+    top: 200px;
+    background-color: rgba(66,56,56);
+}
+
 body {
   background: whitesmoke;
 }
@@ -33,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header h1 {
-  font-size: 100px;
+  font-size: 250px;
   color: rgba(66,56,56)
 }
 
