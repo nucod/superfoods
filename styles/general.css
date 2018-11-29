@@ -36,6 +36,10 @@ ul {
     font-family: 'Poiret One', cursive;
     }
 
+a:hover {
+    font-weight: bolder;
+}
+
 .important {
   font-weight: bold;
 }
