@@ -1,0 +1,65 @@
+#mySidenav a {
+    position: absolute;
+    left: -130px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4e6a78;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Righteous', cursive;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#main {
+    top: 20px;
+    background-color: black;
+}
+
+#about {
+    top: 80px;
+    background-color: black;
+}
+
+#foods {
+    top: 140px;
+    background-color: black;
+}
+body{
+  background: #eca979;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+  h1{
+      color: #4d0a01;
+      font-size: 200px;
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      -webkit-text-stroke: 2px white;
+      line-height: 10px;
+}
+h2{
+    color: #4d0a01;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    -webkit-text-stroke: 2px white;
+    line-height: 10px;
+}
+h3{
+    color: #4d0a01;
+    font-size: 200px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    -webkit-text-stroke: 2px white;
+    line-height: 10px;
+}
+.nav-link {
+  border: 1px solid white;
+}

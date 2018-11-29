@@ -1,0 +1,109 @@
+#mySidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 14px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #c7c21c;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Righteous', cursive;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: black;
+}
+
+#foods {
+    top: 80px;
+    background-color: black;
+}
+
+#map {
+    top: 140px;
+    background-color: black;
+}
+#main {
+  top: 200px;
+  background-color: black;
+}
+body{
+  background: #2f0a03;
+}
+    .header h1 {
+          color: #799713;
+          font-size: 250px;
+          text-align: center;
+          font-family: 'Righteous', cursive;
+    }
+p.1 {
+  position: relative;
+  top: -400px;
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Poiret One', cursive;
+    }
+    h2{
+        color: #799713;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Righteous', cursive;
+
+    }
+    h3{
+        color: #799713;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Righteous', cursive;
+    }
+    h4{
+        color: #799713;
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Righteous', cursive;
+    }
+    h5 {
+      color: #799713;
+      font-size: 30px;
+      text-align: left;
+      font-family: 'Righteous', cursive;
+    }
+    ul {
+      color: #799713;
+      font-size: 20px;
+      text-align: left;
+      font-family: 'Poiret One', cursive;
+    }
+    div{
+        font-family: 'Poiret One', cursive;
+        font-size: 20px;
+    }
+    .first{
+        background: #2f0a03;
+        text-align: left;
+
+    }
+    .second{
+        background: #2f0a03;
+        text-align: left;
+    }
+    .third{
+        background: #2f0a03;
+        text-align: left;
+    }
+    .number{
+      font-size: 30px;
+      font-family: 'Righteous', cursive;
+    }
+    .header2 {
+      margin-top: 0;
+    }
+    .nav-link {
+      border: 1px solid white;
+    }
