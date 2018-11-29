@@ -1,3 +1,22 @@
+#mySidenav a {
+  color: rgba(255,178,102);
+}
+
+#about {
+    top: 20px;
+    background-color: rgba(0,51,25);
+}
+
+#foods {
+    top: 80px;
+    background-color: rgba(0,51,25);
+}
+
+#map {
+    top: 140px;
+    background-color: rgba(0,51,25);
+}
+
 body {
   background: rgba(255,178,102)
 }
