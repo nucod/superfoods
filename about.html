@@ -12,7 +12,6 @@
     <title>ABOUT</title>
 
     <div id="mySidenav" class="sidenav">
-      <a class="nav-link" href="about.html" id="about">About</a>
       <a class="nav-link" href="superfoods.html" id="foods">Superfoods</a>
       <a class="nav-link" href="map.html" id="map">Map</a>
       <a class="nav-link" href="main page.html" id="main">Main</a>
@@ -40,24 +39,11 @@
       <p class="blocktext">Remember that there is no single food that holds the key to good health or disease prevention. A healthy, balanced diet, rich in fruit and vegetables and wholegrain foods, paired with regular physical activity, is still the key to reduce the risk of some chronic diseases and increase life expectancy.</p>
 
       <script>
-      $( "blocktext" ).animate({
-        height: "toggle",
-        opacity: "toggle"
-      }, {
-        duration: "slow"
-      });
-      </script>
-
-      <script>
-  //      $(document).ready(function(){
-  //          $("#flip").click(function(){
-//               window.scrollTo(0, $("#panel")[0].scrollHeight);
-//            });
-//        });
-
-        $('div').on('click', function()) {
-          $(this).toogleClass('show-description');
-        });
+              $(document).ready(function(){
+                  $("#flip").click(function(){
+                     window.scrollTo(0, $("#panel")[0].scrollHeight);
+                  });
+              });
       </script>
 
     </div>

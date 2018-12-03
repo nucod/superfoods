@@ -15,7 +15,8 @@ body {
     background-color: rgba(69,140,140);
 }
 
-#foods {
+
+#main {
     top: 80px;
     background-color: rgba(69,140,140);
 }
@@ -25,10 +26,6 @@ body {
     background-color: rgba(69,140,140);
 }
 
-#main {
-    top: 200px;
-    background-color: rgba(69,140,140);
-}
 
 body::-webkit-scrollbar {
     width: 1em;

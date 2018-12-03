@@ -2,6 +2,20 @@
   color: white;
 }
 
+#foods {
+    top: 20px;
+    background-color: black;
+}
+
+#map {
+    top: 140px;
+    background-color: black;
+}
+
+#main {
+    top: 80px;
+    background-color: black;
+}
 
 body {
   background: url("../images/about.jpg") no-repeat center center fixed;
