@@ -9,7 +9,7 @@ body {
 #mySidenav a {
   color: rgba(57,40,24);
       position: absolute;
-      left: -130px;
+      left: -100px;
       transition: 0.3s;
       padding: 15px;
       width: 150px;
@@ -18,18 +18,15 @@ body {
       border-radius: 0 5px 5px 0;
       font-family: 'Righteous', cursive;
   }
-}
 
 #main {
     top: 15px;
     background-color: rgba(69,140,140);
 }
-
 #about {
     top: 80px;
     background-color: rgba(69,140,140);
 }
-
 #map {
     top: 145px;
     background-color: rgba(69,140,140);
