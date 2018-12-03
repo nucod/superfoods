@@ -8,10 +8,20 @@ body {
 
 #mySidenav a {
   color: rgba(57,40,24);
+      position: absolute;
+      left: -130px;
+      transition: 0.3s;
+      padding: 15px;
+      width: 150px;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 0 5px 5px 0;
+      font-family: 'Righteous', cursive;
+  }
 }
 
-#about {
-    top: 20px;
+#main {
+    top: 15px;
     background-color: rgba(69,140,140);
 }
 
@@ -44,4 +54,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-weight: bold;
   -webkit-text-stroke: 2px white;
+}
+.nav-link {
+  border: 1px solid white;
 }
